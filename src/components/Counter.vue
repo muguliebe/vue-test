@@ -19,10 +19,10 @@ export default {
   },
   methods: {
     add() {
-      return ++this.count
+      return ++this.$store.state.count
     },
     minus() {
-      return --this.count
+      return --this.$store.state.count
     }
   }
 }
